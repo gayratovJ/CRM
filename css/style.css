@@ -1,0 +1,117 @@
+main {
+  padding-top: 120px;
+}
+@media (max-width: 990px) {
+  main section .container table {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+@media (max-width: 990px) {
+  main section .container table thead {
+    display: grid !important;
+  }
+}
+@media (max-width: 990px) {
+  main section .container table thead tr {
+    display: grid !important;
+  }
+}
+@media (max-width: 990px) {
+  main section .container table tbody {
+    display: flex !important;
+    width: 300px !important;
+    flex-wrap: wrap !important;
+  }
+}
+@media (max-width: 540px) {
+  main section .container table tbody {
+    display: flex !important;
+    width: 150px !important;
+    flex-wrap: wrap !important;
+  }
+}
+@media (max-width: 990px) {
+  main section .container table tbody tr {
+    display: grid !important;
+  }
+}
+main section .container table tbody tr {
+  border-color: transparent;
+  background-color: aquamarine !important;
+}
+main section .container table tbody tr td button.mr-3 {
+  background-color: yellow !important;
+  color: black;
+  border: 1px solid black;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 3px 8px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+header nav.container .input-group button.bars {
+  display: none;
+}
+@media (max-width: 770px) {
+  header nav.container .input-group button.bars {
+    display: block !important;
+  }
+}
+header nav.container .input-group input.student-search {
+  box-shadow: 0px 3px 8px 8px rgba(0, 144, 255, 0.2) !important;
+  border: none !important;
+}
+@media (max-width: 770px) {
+  header nav.container .input-group .toggle {
+    background-color: black;
+  }
+}
+header nav.container .input-group .toggle button.open-modal-btn {
+  background-color: green !important;
+  color: white !important;
+}
+@media (max-width: 770px) {
+  header nav.container .input-group .toggle button.open-modal-btn {
+    display: none !important;
+  }
+}
+header nav.container .input-group .toggle span.input-group-text {
+  padding: 0px !important;
+  border: none;
+}
+@media (max-width: 770px) {
+  header nav.container .input-group .toggle span.input-group-text {
+    display: none !important;
+  }
+}
+header nav.container .input-group .toggle span.input-group-text select.group-region {
+  background-color: blue;
+  color: white;
+  border-radius: 0px;
+}
+header nav.container .input-group .toggle span.input-group-text select.groups-filter {
+  background-color: red;
+  color: white;
+  border-radius: 0px;
+}
+
+.light-mode {
+  background-color: black !important;
+}
+
+.dark {
+  background-color: gray !important;
+}
+
+.dark-mode button {
+  background-color: yellow;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: black;
+}

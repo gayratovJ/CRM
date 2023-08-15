@@ -1,0 +1,148 @@
+main {
+  padding-top: 120px;
+
+  section {
+    .container {
+      table {
+
+        @media (max-width:990px) {
+          display: flex !important;
+          justify-content: center !important;
+        }
+
+        thead {
+          @media (max-width:990px) {
+            display: grid !important;
+          }
+
+          tr {
+            @media (max-width:990px) {
+              display: grid !important;
+            }
+          }
+        }
+
+        tbody {
+          @media (max-width:990px) {
+            display: flex !important;
+            width: 300px !important;
+            flex-wrap: wrap !important;
+          }
+
+          @media (max-width:540px) {
+            display: flex !important;
+            width: 150px !important;
+            flex-wrap: wrap !important;
+          }
+
+          tr {
+            @media (max-width:990px) {
+              display: grid !important;
+            }
+
+          }
+
+          tr {
+            border-color: transparent;
+            background-color: aquamarine !important;
+
+            td {
+              button.mr-3 {
+                background-color: yellow !important;
+                color: black;
+                border: 1px solid black;
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 0px 3px 8px 8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 8px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 8px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+
+  nav.container {
+    .input-group {
+      button.bars {
+        display: none;
+
+        @media (max-width:770px) {
+          display: block !important;
+        }
+      }
+
+      input.student-search {
+        -webkit-box-shadow: 0px 3px 8px 8px rgba(0, 144, 255, 0.2);
+        -moz-box-shadow: 0px 3px 8px 8px rgba(0, 144, 255, 0.2);
+        box-shadow: 0px 3px 8px 8px rgba(0, 144, 255, 0.2) !important;
+        border: none !important;
+      }
+
+      .toggle {
+        @media (max-width:770px) {
+          background-color: black;
+        }
+
+        button.open-modal-btn {
+          background-color: green !important;
+          color: white !important;
+
+          @media (max-width:770px) {
+            display: none !important;
+          }
+        }
+
+
+        span.input-group-text {
+          padding: 0px !important;
+          border: none;
+
+          @media (max-width:770px) {
+            display: none !important;
+          }
+
+          select.group-region {
+            background-color: blue;
+            color: white;
+            border-radius: 0px;
+          }
+
+          select.groups-filter {
+            background-color: red;
+            color: white;
+            border-radius: 0px;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+.light-mode {
+  background-color: black !important;
+}
+
+.dark {
+  background-color: gray !important;
+}
+
+.dark-mode {
+  button {
+    background-color: yellow;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: black;
+  }
+}

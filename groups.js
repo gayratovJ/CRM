@@ -1,0 +1,2 @@
+const groups = ["REACT N1", "REACT N11", "REACT N13", "REACT N15"];
+const region = ["Toshkent","Toshkent viloyati", "Samarqand","Jizzah","Farg'ona","Andijon","Sirdaryo","Xorazm","Qashqadaryo","Buxoro","Navoiy","Namangan","Sirdaryo"]
